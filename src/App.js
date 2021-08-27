@@ -5,7 +5,7 @@ import LoggedInScreen from "./components/LoggedInScreen";
 function App() {
   return (
     <Link>
-      <h6 style={{ textAlign: "center" }}>Welcome</h6>
+      <h6 style={{ textAlign: "center" }}>MEAN LOGIN APP</h6>
       <Route exact path="/" component={LoginComponent} />
       <Route exact path="/user" component={LoggedInScreen} />
     </Link>
